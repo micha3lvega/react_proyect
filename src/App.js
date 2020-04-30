@@ -9,9 +9,8 @@ function App() {
     <Container>
       <Header></Header>
       <Row>
-        <Curso></Curso>
-        <Curso></Curso>
-        <Curso></Curso>
+        <Curso title="Curso 1"
+          image="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/fGWjtyQtG4JE7UXgaPAN"></Curso>
       </Row>
     </Container>
   );
