@@ -4,13 +4,16 @@ import Header from './components/Header';
 import Curso from './components/Curso'
 import { Row, Container } from 'reactstrap';
 
+import Cursos from './data/Cursos.json'
+
 function App() {
   return (
     <Container>
       <Header></Header>
       <Row>
-        <Curso title="Curso 1"
-          image="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/fGWjtyQtG4JE7UXgaPAN"></Curso>
+        {
+          Cursos.map(curso => <Curso title={curso.title} image={curso.image} teacher={curso.teacher} />)
+        }
       </Row>
     </Container>
   );

@@ -1,0 +1,21 @@
+
+[
+    {
+        "title": "Curso de angular",
+        "image": "https://i1.wp.com/cursosmegaup.bid/wp-content/uploads/2019/07/2105384_9a0f_8.jpg?ssl=1",
+        "price": 20,
+        "teacher": "Pepito Perez"
+    },
+    {
+        "title": "Curso de go",
+        "image": "https://edteam-media.s3.amazonaws.com/courses/original/565fa9ec-8f84-448a-b0d8-855d059f16dd.png",
+        "price": 30,
+        "teacher": "Pepito Perez"
+    },
+    {
+        "title": "Curso de react",
+        "image": "https://edteam-media.s3.amazonaws.com/courses/original/5eaaec0b-fa78-4f48-94b6-61b757e1f5fa.png",
+        "price": 40,
+        "teacher": "Pepito Perez"
+    }
+]
