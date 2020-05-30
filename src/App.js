@@ -1,12 +1,10 @@
 import React from 'react';
 
-import Header from './components/Header';
-import Curso from './components/Curso'
+import Header from './header/Header';
+import Course from './course/Course'
 import { Row, Container } from 'reactstrap';
 
-import Cursos from './data/Cursos.json'
-
-//test
+import Courses from './course/data/Courses.json'
 
 function App() {
   return (
@@ -14,7 +12,7 @@ function App() {
       <Header></Header>
       <Row>
         {
-          Cursos.map(curso => <Curso title={curso.title} image={curso.image} teacher={curso.teacher} />)
+          Courses.map(curse => <Course title={curse.title} image={curse.image} teacher={curse.teacher} />)
         }
       </Row>
     </Container>

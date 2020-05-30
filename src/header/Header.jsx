@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../css/Header.css'
+import '../header/Header.css'
 
 import { Container } from 'reactstrap';
 

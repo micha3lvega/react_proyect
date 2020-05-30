@@ -1,14 +1,14 @@
 import React from 'react';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../css/Curso.css'
+import './../course/Course.css'
 
 import {
     Card, Button, CardBody, CardHeader, Col, CardImg, Badge, CardTitle, CardText
 } from 'reactstrap';
 import Image from 'react-bootstrap/Image'
 
-const Curso = (props) => {
+const Course = (props) => {
     return (
         <div className="col-4">
             <Col>
@@ -33,4 +33,4 @@ const Curso = (props) => {
     );
 };
 
-export default Curso;
+export default Course;
