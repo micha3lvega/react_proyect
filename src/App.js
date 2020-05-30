@@ -1,20 +1,16 @@
 import React from 'react';
 
-import Header from './header/Header';
-import Course from './course/Course'
-import { Row, Container } from 'reactstrap';
+import Header from './header/HeaderComponent';
 
-import Courses from './course/data/Courses.json'
+import { Container } from 'reactstrap';
+
+import CourseGrid from './course/CourseGrid';
 
 function App() {
   return (
     <Container>
       <Header></Header>
-      <Row>
-        {
-          Courses.map(curse => <Course title={curse.title} image={curse.image} teacher={curse.teacher} />)
-        }
-      </Row>
+      <CourseGrid></CourseGrid>
     </Container>
   );
 }
